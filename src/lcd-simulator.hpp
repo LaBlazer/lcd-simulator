@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <opencv2/opencv.hpp>
-#include "font8x8.cpp"
+#include "font8x8.hpp"
 
 #if defined (__unix__)
 #include <unistd.h>
@@ -52,7 +52,7 @@ void lcd_init()
 	cv::waitKey(1);
 }
 
-// Displays lcd contents
+// Displays virtual LCD's contents
 // wait =	-1 for no waiting
 //	0 to wait indefinitely for key press
 //	n to wait n milliseconds for key press
