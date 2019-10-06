@@ -1,4 +1,4 @@
-#include "lcd-simulator.cpp"
+#include "lcd-simulator.hpp"
 
 int main()
 {
