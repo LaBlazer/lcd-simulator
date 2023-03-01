@@ -1,5 +1,5 @@
 # lcd-simulator
-Simulator for the LCD controller ILI9341 on ARM development board FRDM-K64F  
+Simulator for the LCD controller ILI9341 on ARM development board FRDM-K64F used for the APPS course in VSB-TUO
 * Currently works only on x64 Windows
 
 ### How to run:
